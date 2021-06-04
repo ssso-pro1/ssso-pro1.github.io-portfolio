@@ -34,4 +34,4 @@ HTML, CSS, JavaScript
 
 <h2>정보</h2>
 장소연- ssso.pro1@gmail.com <br>
-https://github.com/ssso-pro1/ssso-pro1.github.io
+https://ssso-pro1.github.io/ssso-pro1.github.io-portfolio/
