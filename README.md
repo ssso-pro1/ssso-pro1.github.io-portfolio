@@ -28,7 +28,7 @@ HTML, CSS, JavaScript
 
 <h2>업데이트 내역</h2>
 <ul>
-    <li>1v</li>
+    <li>1.0.0v</li>
 </ul>
 <br>
 
