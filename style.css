@@ -40,7 +40,7 @@
 }
 
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   margin: 0;
   cursor: default;
 }
@@ -157,7 +157,7 @@ p {
 /* ----------------------------------------------- */
 /* Home */
 #home {
-  background: url("imgs/home-background.png") center/cover no-repeat;
+  background: url('imgs/home-background.png') center/cover no-repeat;
   padding: 40px;
   padding-top: 120px; /* js */
   text-align: center;
@@ -256,6 +256,11 @@ p {
 }
 
 .school .school__logo-kh {
+  width: 7%;
+  height: 7%;
+}
+
+.school .school__logo-fj {
   width: 7%;
   height: 7%;
 }
@@ -429,7 +434,7 @@ p {
 
 /**/
 .project__description h3:after {
-  content: "";
+  content: '';
   display: block; /* 한줄에 하나씩 */
   position: relative;
   left: 50%;
