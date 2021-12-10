@@ -56,10 +56,9 @@
       <p>
         현재에 안주하지 않고 항상 끈기있게 앞으로 나아가는 목표 지향적인 개발자입니다. 
         변화를 두려워하지 않고 계속 발전하는 삶을 추구합니다.        
-        프론트엔드 개발자가 되기 위하여 다양한 정보를 탐색하여 스스로의 로드맵을 짜보고,
-        이를 이루기 위하여 필요한 강의들을 찾아 수강하고, 개인 프로젝트를 진행하면서 공부를 하고 있습니다.
+        아래와 같은 기술을 익혔으며 현재는 React를 공부하고 있습니다. 
         <br />
-        아래와 같은 기술을 익혔으며 현재는 React를 공부하고 있습니다.
+        앞으로 타입스크립트와 리덕스를 공부하며 작은 프로젝트를 진행할 예정입니다. 새로운 기술을 배우는 데에 두려움이 없으며 도전적이며 배움에 능동적인 성격입니다.
     </p>
 
       <div class="about__majors">
@@ -90,7 +89,8 @@
             <i class="fas fa-laptop-code"></i>
           </div>
           <h2 class="major__title">ETC</h2>
-          <p class="major__description">Boostrap, GitHub</p>
+          <p class="major__description">Boostrap, GitHub, Figma, <br>
+            ERDCloud, StarUML</p>
         </div>
       </div>
 
@@ -113,7 +113,7 @@
           <img src="imgs/schools/main_logo_fitjob.png" alt="fitjob" class="school__logo-fj" />
           <div class="school__description">
             <p class="school__name">FITJOB-React</p>
-            <p class="school__period">2021 June - 2021 Sept</p>
+            <p class="school__period">2021 June - 2021 Aug</p>
           </div>
         </div>
       </div>
@@ -143,7 +143,7 @@
             <div class="skill">
               <div class="skill_description">
                 <span>CSS</span>
-                <span>80%</span>
+                <span>85%</span>
               </div>
               <div class="skill__bar">
                 <div class="skill__value" style="width: 85%"></div>
@@ -153,30 +153,30 @@
             <div class="skill">
               <div class="skill_description">
                 <span>JavaScript</span>
-                <span>60%</span>
+                <span>70%</span>
               </div>
               <div class="skill__bar">
-                <div class="skill__value" style="width: 60%"></div>
+                <div class="skill__value" style="width: 70%"></div>
               </div>
             </div>
 
             <div class="skill">
               <div class="skill_description">
                 <span>React</span>
-                <span>30%</span>
+                <span>65%</span>
               </div>
               <div class="skill__bar">
-                <div class="skill__value" style="width: 30%"></div>
+                <div class="skill__value" style="width: 65%"></div>
               </div>
             </div>
 
             <div class="skill">
               <div class="skill_description">
                 <span>Java</span>
-                <span>65%</span>
+                <span>60%</span>
               </div>
               <div class="skill__bar">
-                <div class="skill__value" style="width: 65%"></div>
+                <div class="skill__value" style="width: 60%"></div>
               </div>
             </div>
 
@@ -205,7 +205,11 @@
             <div class="etc">
               <h3 class="skillset__title">Etc</h3>
               <ul class="etc__list">
+                <li><span>Bootstrap</span></li>
                 <li><span>Git</span></li>
+                <li><span>Figma</span></li>
+                <li><span>ERDCloud</span></li>
+                <li><span>StarUML</span></li>
                 <li><span>Design</span></li>
                 <li><span>Excel</span></li>
               </ul>
@@ -222,18 +226,34 @@
         <h3>Projects</h3>
         <div class="work__categories">
           <button class="category__btn selected" data-filter="*">
-            All<span class="category__count">4</span>
+            All<span class="category__count">6</span>
           </button>
           <button class="category__btn" data-filter="Main">
-            Full-Stack<span class="category__count">1</span>
+            Team Projects<span class="category__count">2</span>
           </button>
-          <button class="category__btn" data-filter="Clone">
-            Front-End<span class="category__count">3</span>
+          <button class="category__btn" data-filter="Mini">
+            Mini Projects<span class="category__count">4</span>
           </button>
         </div>
         <div class="work__projects">
           <a
-            href="https://github.com/ssso-pro1/Daily_Routine-1"
+            href="https://github.com/ssso-pro1/tennis-together-fe"
+            class="project"
+            data-type="Main"
+            target="_blank"
+          >
+            <img class="project__img" src="imgs/projects/project0.png" alt="TennisTogether" />
+            <div class="project__description">
+              <h3>Tennis Together</h3>
+              <span
+                >React Hooks, <br />
+                Styled-components, Ant-design</span
+              >
+            </div>
+          </a>
+
+          <a
+            href="https://github.com/ssso-pro1/Daily_Routine-2"
             class="project"
             data-type="Main"
             target="_blank"
@@ -249,9 +269,25 @@
           </a>
 
           <a
+            href="https://github.com/ssso-pro1/theMovies"
+            class="project"
+            data-type="Mini"
+            target="_blank"
+          >
+            <img class="project__img" src="imgs/projects/themovies.png" alt="theMovies" />
+            <div class="project__description">
+              <h3>Movie Search Web</h3>
+              <span
+                >
+                Mini Project <br>
+                React Hooks</span
+              >
+            </div>
+          </a>
+          <a
             href="https://github.com/ssso-pro1/ssso-pro1.github.io"
             class="project"
-            data-type="Clone"
+            data-type="Mini"
             target="_blank"
           >
             <img class="project__img" src="imgs/projects/work--portfolio.png" alt="PortfolioSite" />
@@ -266,7 +302,7 @@
           <a
             href="https://github.com/ssso-pro1/TodoList"
             class="project"
-            data-type="Clone"
+            data-type="Mini"
             target="_blank"
           >
             <img class="project__img" src="imgs/projects/work-todolist.png" alt="PortfolioSite" />
@@ -281,7 +317,7 @@
           <a
             href="https://github.com/ssso-pro1/kokoa-clone-2021"
             class="project"
-            data-type="Clone"
+            data-type="Mini"
             target="_blank"
           >
             <img class="project__img" src="imgs/projects/work-cocoa.png" alt="PortfolioSite" />
