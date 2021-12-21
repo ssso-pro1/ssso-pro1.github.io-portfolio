@@ -26,11 +26,6 @@
 HTML, CSS, JavaScript
 <br>
 
-<h2>업데이트 내역</h2>
-<ul>
-    <li>1.0.0v</li>
-</ul>
-<br>
 
 <h2>정보</h2>
 장소연- ssso.pro1@gmail.com <br>
